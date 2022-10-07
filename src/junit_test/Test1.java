@@ -6,6 +6,21 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+
+public class Test1 {
+
+	
+	@Test
+	public void test1() {
+		System.out.println("I am first test case...");
+	}
+	
+	@Test
+	public void test2() {
+		System.out.println("I am second test case...");
+	}
+}
+
 //public class Test1 {
 //
 //	@BeforeClass//This is the annotation used to annotate the method executing only once for all the test-cases to provide the right
